@@ -1,26 +1,66 @@
 [
   {
-    "title": "Per aliquam est tristique luctus himenaeos augue",
-    "text_left": "Cubilia diam dictumst leo consectetur a pulvinar elit mus dapibus, vulputate per nascetur proin erat aliquet sem ad dictum, nunc accumsan dolor ultricies venenatis potenti ligula eget. Curabitur dapibus inceptos diam ante torquent eros venenatis dictumst arcu cras laoreet morbi lorem ex nullam, aenean fames tempus finibus ornare cubilia per ipsum tellus iaculis libero varius blandit. Vitae ligula eleifend lacus ipsum id conubia suspendisse nunc elit egestas scelerisque consectetur integer lectus, turpis eget luctus facilisis sem at tincidunt netus parturient consequat enim penatibus.  <br>This is the <strong>first</strong> slide.",
-    "image_left": "/img1.png",
-    "text_right": "Cubilia diam dictumst leo consectetur a pulvinar elit mus dapibus, vulputate per nascetur proin erat aliquet sem ad dictum, nunc accumsan dolor ultricies venenatis potenti ligula eget. Curabitur dapibus inceptos diam ante torquent eros venenatis dictumst arcu cras laoreet morbi lorem ex nullam, aenean fames tempus finibus ornare cubilia per ipsum tellus iaculis libero varius blandit. Vitae ligula eleifend lacus ipsum id conubia suspendisse nunc elit egestas scelerisque consectetur integer lectus, turpis eget luctus facilisis sem at tincidunt netus parturient consequat enim penatibus.  <br>This is the <strong>first</strong> slide.",
-    "image_right": "/img1.png",
-    "background_image": "/bg.jpg"
+    "title": "Tools and SAAS",
+    "background_image": "bg.jpg",
+    "image_left": "",
+    "image_right": "tools.png",
+    "text_left": "<p>- Auth0</p><p>- Terraform</p><p>- Anisible</p><p>- SonarQube</p><p>- Courier</p><p>- Postmark</p><p>- Sentry</p>",
+    "text_right": ""
   },
   {
-    "title": "Slide 2",
-    "text_left": "This is the <em>second</em> slide. Visit <a href='https://example.com'>Example</a>.",
-    "image_left": "/img1.png",
-    "text_right": "This is the <em>second</em> slide. Visit <a href='https://example.com'>Example</a>.",
-    "image_right": "/img1.png",
-    "background_image": "/bg.jpg"
+    "title": "Auth0",
+    "background_image": "bg.jpg",
+    "image_left": "",
+    "image_right": "auth0.png",
+    "text_left": "<p>Auth0 is like a digital ID checker for your apps and websites. It manages user logins, making sure only the right people can access your digital spaces. Whether someone signs in with a username and password or uses a social media account, Auth0 handles it all, keeping things secure and smooth. It's like having a bouncer who knows every guest by face and name, ensuring a safe and personalized experience for everyone.</p>",
+    "text_right": ""
   },
   {
-    "title": "Slide 2",
-    "text_left": "This is the <em>second</em> slide. Visit <a href='https://example.com'>Example</a>.",
-    "image_left": null,
-    "text_right": null,
-    "image_right": "/img1.png",
-    "background_image": "/bg.jpg"
+    "title": "Terraform",
+    "background_image": "bg.jpg",
+    "image_left": "",
+    "image_right": "terraform.png",
+    "text_left": "<p>Terraform is like a master architect for your cloud infrastructure. It lets you design and build your entire cloud setup using simple code. You can specify what services you need, how they should be configured, and how they connect with each other. Once your blueprint is ready, Terraform goes to work, automatically constructing everything exactly as you've outlined. If you need to change something, update your code, and Terraform will adjust your infrastructure accordingly, adding new components or tweaking existing ones without tearing everything down. It's like having a magic wand that builds, changes, and manages your cloud environment by simply describing what you want in code.</p><p><br></p><p><br></p><p><br></p>",
+    "text_right": ""
+  },
+  {
+    "title": "Ansible",
+    "background_image": "bg.jpg",
+    "image_left": "",
+    "image_right": "ansible.png",
+    "text_left": "<p>Ansible is like a skilled conductor for your IT orchestra, harmonizing the operation of servers, applications, and other tech components across your entire environment. With Ansible, you can write simple instructions, called playbooks, that automate repetitive tasks, deploy applications, and manage system configurations. It communicates over normal network channels to execute these tasks on different servers without needing agents installed on them. Imagine telling one command to set up a server, install software, and configure settings, and then watching as Ansible makes it happen across hundreds of machines at once. It's all about making complex IT tasks simple and repeatable, ensuring consistency and reliability in your operations.</p>",
+    "text_right": ""
+  },
+  {
+    "title": "SonarQube",
+    "background_image": "bg.jpg",
+    "image_left": "",
+    "image_right": "sonarqube.png",
+    "text_left": "<p>SonarQube is like a meticulous inspector for your codebase, scrutinizing every line of code for bugs, vulnerabilities, and code smells before they become real issues. It acts as a quality gatekeeper, ensuring that only clean, safe, and maintainable code makes it into production. With SonarQube, developers get immediate feedback on their code's health, allowing them to fix problems early in the development process. It's like having a continuous code review process that helps maintain high standards of code quality, making your applications more reliable and easier to manage over time.</p><p><br></p><p><br></p>",
+    "text_right": ""
+  },
+  {
+    "title": "Courier",
+    "background_image": "bg.jpg",
+    "image_left": "",
+    "image_right": "courier.png",
+    "text_left": "<p>Courier is like a versatile delivery service for your application's notifications. It integrates with various messaging channels—emails, SMS, push notifications, and more—allowing you to design, send, and manage notifications from a single platform. Think of it as a central hub that takes your message and delivers it to your users through their preferred channel, ensuring they get the information they need, how and when they need it. Courier simplifies the complex task of multi-channel communication, making it easier for developers to engage with their audience without juggling multiple APIs and services.</p><p><br></p><p><br></p>",
+    "text_right": ""
+  },
+  {
+    "title": "Postmark",
+    "background_image": "bg.jpg",
+    "image_left": "",
+    "image_right": "postmark.png",
+    "text_left": "<p>Postmark is like a high-speed mail service for your application's emails. It focuses on delivering transactional emails (like sign-up confirmations, password resets, and notifications) straight to the inbox, bypassing spam filters. With Postmark, you can ensure that your important emails reach your users quickly and reliably, offering detailed analytics to track deliveries, opens, and clicks. It's designed for developers who need their app's emails to be seen and acted upon promptly, making it a trusted partner in maintaining strong communication lines with users.</p>",
+    "text_right": ""
+  },
+  {
+    "title": "Sentry",
+    "background_image": "bg.jpg",
+    "image_left": "",
+    "image_right": "sentry.png",
+    "text_left": "<p>Sentry is like a vigilant watchman for your application, constantly on the lookout for errors and performance issues. When something goes wrong, Sentry immediately alerts you with detailed information about the issue, including where it happened and what caused it. This allows developers to quickly diagnose and fix problems before they affect users. Think of Sentry as an early warning system for your digital products, ensuring that your applications run smoothly and reliably by catching and addressing issues in real time.</p>",
+    "text_right": ""
   }
 ]
